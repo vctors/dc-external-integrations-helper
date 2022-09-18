@@ -1,0 +1,19 @@
+{
+  "name": "@dentacarts/dc-external-integrations-helper",
+  "version": "1.0.1",
+  "description": "Frontend client helper for third party integrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "DentaCarts",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "publishConfig": {
+    "@dentacarts:registry": "https://npm.pkg.github.com"
+  }
+}
