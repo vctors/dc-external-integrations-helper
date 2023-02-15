@@ -1,6 +1,6 @@
 {
   "name": "@dentacarts/dc-external-integrations-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Frontend client helper for third party integrations",
   "main": "index.js",
   "scripts": {
