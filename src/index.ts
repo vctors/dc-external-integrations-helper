@@ -29,15 +29,11 @@ export class ExternalIntegrationsHelper {
         });
     }
     public logEventSeparately(eventName: string, whitelist: string[], args: any[]) {
-        console.log("we-notify-event")
-
         this.observerList.forEach((element: any) => {
             element.instantiateClient();
-            const argsIndex = whitelist.indexOf(element.Name);
+            const argsIndex = whitelist.indexOf(element.name);
             if (argsIndex >= 0) {
                 element.sendEvent(eventName, args[argsIndex]);
-                console.log("we-notify-1");
-                console.log("we-notify", args[argsIndex]);
             }
         });
     }
