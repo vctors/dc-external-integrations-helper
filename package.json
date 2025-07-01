@@ -8,7 +8,7 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "author": "DentaCarts",
+  "author": "vctors",
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.8.3"
