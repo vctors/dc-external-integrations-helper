@@ -1,8 +1,12 @@
 {
-  "name": "@dentacarts/dc-external-integrations-helper",
-  "version": "1.0.4",
+  "name": "@vctors/dc-external-integrations-helper",
+  "version": "1.0.6",
   "description": "Frontend client helper for third party integrations",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -14,6 +18,6 @@
     "typescript": "^4.8.3"
   },
   "publishConfig": {
-    "@dentacarts:registry": "https://npm.pkg.github.com"
+    "@vctors:registry": "https://npm.pkg.github.com"
   }
 }
